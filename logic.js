@@ -25,3 +25,4 @@ window.onload = () => {
 }
 
 document.querySelector("button").addEventListener("click",window.onload);
+document.querySelector(".card").addEventListener("click",window.onload);
