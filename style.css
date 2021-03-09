@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700);
+body {
+    background: url("bgfelt.jpg");
+}
+div.top, div.bottom {
+    min-height: 180px;
+}
+div.playingarea {
+    min-height: 550px;
+    display: -webkit-flex;
+    display: flexbox;
+    justify-content: space-around;
+}
+div.pa_left, div.pa_right, div.pa_center {
+    width: 370px;
+    height: 500px;
+}
+
+.card {
+    background-color: white;
+    border: black;
+    border-style: solid;
+    border-width: 8px;
+    border-radius: 12px;
+    min-width: 100%;
+    min-height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+.suit {
+    font-size: 95px;
+    padding: 20px;
+}
+
+.ca_center {
+    font: 98px 'Lora';
+    font-size: 95px;
+    padding: 20px;
+    margin: 0 auto;
+    align-self: center;
+}
+
+.ca_bottom {
+    align-self: flex-end;
+}
